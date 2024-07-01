@@ -1,0 +1,88 @@
+@font-face {
+    font-family: '9THYSSEI';
+    src: url('/font/9THYSSEI\ 1.TTF');
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: '9THYSSEI';
+    background: linear-gradient(blue,orange,yellow,gold);
+}
+i{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: larger;
+    flex-wrap: wrap; 
+    color: white;
+}
+.all{
+    border: 2px solid white;
+    position: fixed;
+    flex-wrap: wrap;
+    flex-grow: grow;
+    height: 60px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.all nav{
+    display: flex;
+    margin-top: -50px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+.all nav ul{
+    flex-wrap: wrap;
+}
+.all nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iphone{
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.iphone img{
+    height: 485px;
+    width: 485px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.iphone table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 480px;
+    width: 483px;
+    text-align: center;
+}
+.iphone tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.iphone td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+button{
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: '9THYSSEL';
+    border-radius: 5px;
+    animation-timing-function: ease-out;
+    animation: zoom 1s infinite ease-in-out;
+}
+@keyframes zoom {
+    from{
+        zoom: 100%;
+    }
+    to{
+        zoom: 110%;
+    }    
+}
